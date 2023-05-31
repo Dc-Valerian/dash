@@ -1,10 +1,11 @@
-import { RouterProvider } from "react-router-dom"
-import { mainRoute } from "./routes/mainRoute"
+import React from 'react'
+import { RouterProvider } from 'react-router-dom'
+import { mainRoute } from './router/mainRoute'
 
 const App = () => {
   return (
     <div>
-      <RouterProvider router={mainRoute} />
+      <RouterProvider router={mainRoute}/>
     </div>
   )
 }
